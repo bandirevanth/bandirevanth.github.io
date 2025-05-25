@@ -1,5 +1,5 @@
 # Bandi Revanth 😎
-[My portfolio website - VISIT NOW!](https://bandirevanth.github.io/) 🌟🚀
+[VISIT NOW!](https://bandirevanth.github.io/) 🌟🚀
 
 _My personal portfolio website — a digital reflection of skills, projects, and aspirations._
 
