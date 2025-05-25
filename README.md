@@ -26,4 +26,4 @@ This static website serves as my professional online presence, showcasing my pro
    git clone https://github.com/bandirevanth/bandirevanth.github.io.git
    cd bandirevanth.github.io
 
-_Created on - May 19, 2025_
+_Originally created on - May 19, 2025_
