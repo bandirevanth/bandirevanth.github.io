@@ -27,3 +27,5 @@ This static website serves as my professional online presence, showcasing my pro
    cd bandirevanth.github.io
 
 _Originally created on - May 19, 2025_
+
+Created and maintained by Bandi Revanth — building bridges between ideas and impact.
