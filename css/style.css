@@ -832,6 +832,37 @@ Home Section
     color: var(--main-color);
 }
 
+/*--------------Blog Section------------------*/
+
+.blog-section .blog-post {
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.blog-section .blog-post h3 {
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.blog-section .blog-post p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--blue-dark);
+}
+
+.blog-section .blog-post small {
+  display: block;
+  font-size: 14px;
+  color: var(--blue-dark);
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
 /*--------------Contact Section------------------*/
 
 .contact-form,.contact-info{
