@@ -16,9 +16,9 @@ This static website serves as my professional online presence, showcasing my pro
 
 ## Features
 - Responsive design optimized for all devices
-- Sections for About Me, Projects, Skills, and Contact
+- Sections for About Me, Projects, Skills, Blog and Contact
 - Smooth scrolling and interactive UI elements
-- Easy to update and maintain
+- Beautiful Glassmorphism design with animated background
 
 ---
 
