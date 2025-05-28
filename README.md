@@ -28,6 +28,8 @@ This static website serves as my professional online presence, showcasing my pro
    ```bash
    git clone https://github.com/bandirevanth/bandirevanth.github.io.git
    cd bandirevanth.github.io
+2. You are good to go!
+3. **PLEASE READ! ->** You are welcome to copy and use my code. It is open-source. However, if you decide to implement this same design, please give me credit by adding a button that links back to me. Hope you cooperate. Thanks!
 
 _Originally created on - May 19, 2025_
 
