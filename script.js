@@ -125,7 +125,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
 
 var typed = new Typed(".typing-text", {
-    strings: ["Student", "Nerd", "Future CS/Tech professional", "Exploring Open-source & various CS specialisations..."],
+    strings: ["Student", "Nerd", "Future CS/Tech professional"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 64,
