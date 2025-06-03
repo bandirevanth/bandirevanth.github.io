@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
     document.querySelector(".main").classList.remove("hidden");
     document.querySelector(".home-section").classList.add("active");
@@ -125,7 +124,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
 
 var typed = new Typed(".typing-text", {
-    strings: ["Student", "Nerd", "Future CS/Tech professional"],
+    strings: ["Student", "Nerd", "Future Tech/AI professional"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 64,
