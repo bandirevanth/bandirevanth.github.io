@@ -32,6 +32,6 @@ This static website serves as my professional online presence, showcasing my pro
 2. You are good to go!
 3. **PLEASE READ! ->** You are welcome to copy and use my code. It is open-source. However, if you decide to implement this same design, please give me credit by adding a button that links back to me. Hope you cooperate. Thanks!
 
-_Created on - May 19, 2025 | Never looked back since :)_
+_Created on - May 19, 2025_
 
 Created and maintained by Bandi Revanth — building bridges between ideas and impact.
