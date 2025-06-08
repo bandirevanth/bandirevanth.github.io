@@ -2,21 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
 
 /*---------Variables --------------*/
- :root{
-     --main-color: orangered;
-     --blue: #0000ff;
-     --blue-dark: #18293c;
-     --orange: #ffa500;
-     --green-yellow: #cddc39;
-     --pink-light: #efa2b4;
-     --cyan-light: #aef1ee;
-     --white: #ffffff;
-     --blue-green: #0D98BA;
-     --white-alpha-40: rgba(255, 255, 255, 0.40);
-     --white-alpha-25: rgba(255, 255, 255, 0.25);
-     --backdrop-filter-blur: blur(5px);
-
- }
+:root{
+    --main-color: orangered;
+    --blue: #0000ff;
+    --blue-dark: #18293c;
+    --orange: #ffa500;
+    --green-yellow: #cddc39;
+    --pink-light: #efa2b4;
+    --cyan-light: #aef1ee;
+    --white: #ffffff;
+    --blue-green: #0D98BA;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(255, 255, 255, 0.25);
+    --backdrop-filter-blur: blur(5px);
+}
 
 /*----------Global Settings-------------*/
 *{
@@ -28,6 +27,9 @@
 ::before,
 ::after{
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     min-height: 100vh;
@@ -863,6 +865,39 @@ Home Section
   font-style: italic;
 }
 
+.blog-section .search-box {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog-section .search-box input {
+  width: 60%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid var(--white-alpha-40);
+  background-color: var(--white-alpha-25);
+  color: var(--blue-dark);
+  transition: border 0.3s ease;
+}
+
+.blog-section .search-box input:focus {
+  border-color: var(--main-color);
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .blog-card {
+    width: calc(50% - 30px);
+  }
+}
+@media (max-width: 767px) {
+  .blog-card {
+    width: 100%;
+  }
+}
+
 /*--------------Contact Section------------------*/
 
 .contact-form,.contact-info{
@@ -933,7 +968,6 @@ Home Section
     background-color: var(--main-color);
 }
 
-
 /*-----------------Responsive----------------------*/
 
 @media(max-width:991px){
@@ -1000,7 +1034,6 @@ Home Section
         font-size: 20px;
     }
 }
-
 
 
 .wrapper .static-txt{
