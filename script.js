@@ -79,6 +79,23 @@ tabsContainer.addEventListener("click", (e) => {
     }
 })
 
+/* Blog Search Functionality */
+document.addEventListener("DOMContentLoaded", function () {
+const searchInput = document.getElementById("blogSearch");
+const blogPosts = document.querySelectorAll(".blog-post");
+
+if (searchInput) {
+    searchInput.addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+        blogPosts.forEach(post => {
+        const text = post.innerText.toLowerCase();
+        post.style.display = text.includes(query) ? "block" : "none";
+            });
+        });
+    }
+});
+
+
 /*---------------------Portfolio Item Details Popup-------------------------------*/
 
 document.addEventListener("click", (e) => {
@@ -102,6 +119,12 @@ document.addEventListener("click", (e) => {
         togglePortfolioPopup()
     }
 })
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && document.querySelector(".portfolio-popup.open")) {
+        togglePortfolioPopup();
+  }
+});
 
 function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-thumbnail img").src = portfolioItem.querySelector(".portfolio-item-thumbnail img").src;
