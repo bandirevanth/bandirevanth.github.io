@@ -19,7 +19,7 @@ This static website serves as my professional online presence, showcasing my pro
 - Responsive design optimized for all devices
 - Sections for About Me, Projects, Skills, Blog and Contact
 - Smooth scrolling and interactive UI elements
-- Contact form protected and enhanced by FormSubmit & reCAPTCHA
+- Contact form protected and enhanced by FormSubmit
 
 ---
 
