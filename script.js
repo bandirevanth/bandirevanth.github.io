@@ -132,15 +132,6 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
-document.querySelector("form").addEventListener("submit", function (e) {
-    const response = grecaptcha.getResponse();
-    if (response.length === 0) {
-      alert("Please verify you are not a robot.");
-      e.preventDefault(); // stop form submission
-    }
-  });
-
-
 
 
 
