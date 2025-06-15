@@ -47,4 +47,4 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 
 _Created on - May 19, 2025_
 
-Created and maintained by Bandi Revanth — building bridges between ideas and impact.
+Created and maintained by Bandi Revanth — Engineering the leap from insight to influence.
