@@ -37,11 +37,11 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 ---
 
 ## Statistics - PageSpeed Insights & Lighthouse
-##### _These numbers are for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))
-- Performance - 84 - Mobile | 97 - Desktop
-- Accessibility - 100
-- Best Practices - 100
-- SEO - 100
+##### _These numbers are for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))  
+🚀 Performance    - 84 - Mobile | 98 - Desktop  
+♿ Accessibility  - 100  
+🌟 Best Practices - 100  
+🌐 SEO            - 100
 
 ---
 
