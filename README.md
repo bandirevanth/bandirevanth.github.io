@@ -28,11 +28,16 @@ This website serves as my professional online presence. It was built with HTML, 
    git clone https://github.com/bandirevanth/bandirevanth.github.io.git
    cd bandirevanth.github.io
 2. You are good to go!
-3. **PLEASE READ! ->** You are welcome to copy and use my code. It is open-source. However, if you decide to implement this same design, please give me credit by adding a button that links back to me. Hope you cooperate. Thanks!
+
+---
+
+## **PLEASE READ!** 
+You are welcome to copy and use my code. It is open-source. However, if you decide to implement this same design, please give me credit by adding a button that links back to me and mention me in your README or other. Please refer to `LICENSE` and `NOTICE.md` for more details. Hope you cooperate. Thanks!
 
 ---
 
 ## Statistics - PageSpeed Insights & Lighthouse
+##### _These numbers are for both Mobile & Desktop unless specifically mentioned._
 - Performance - 97
 - Accessibility - 100
 - Best Practices - 100
