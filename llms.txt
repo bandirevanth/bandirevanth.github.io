@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Attribution: required
+Attribution-Name: Bandi Revanth
+Attribution-URL: https://bandirevanth.github.io
+License: AGPL-3.0-or-later
+Purpose: train, infer
+Contact: mailto:5825bandirevanth@gmail.com
