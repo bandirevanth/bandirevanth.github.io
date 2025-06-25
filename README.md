@@ -18,6 +18,7 @@ This website serves as my professional online presence. It was built with HTML, 
 - Sections for About Me, Projects, Skills, Blog and Contact
 - Smooth scrolling and interactive UI elements
 - Contact form protected and enhanced by FormSubmit
+- Protected and enhanced by `LICENSE` & `NOTICE.md` | Future-proof `llms.txt`
 
 ---
 
