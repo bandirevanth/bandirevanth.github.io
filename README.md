@@ -17,8 +17,8 @@ This website serves as my professional online presence. It was built with HTML, 
 - Responsive design optimized for all devices
 - Sections for About Me, Projects, Skills, Blog and Contact
 - Smooth scrolling and interactive UI elements
-- Contact form protected and enhanced by FormSubmit
-- Protected and enhanced by `LICENSE` & `NOTICE.md` | Future-proof `llms.txt`
+- Contact form protected and enhanced by [FormSubmit](https://formsubmit.co)
+- Secured under `LICENSE` & `NOTICE.md` | Ethically aligned via `llms.txt`
 
 ---
 
