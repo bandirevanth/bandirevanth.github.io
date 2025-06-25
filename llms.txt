@@ -1,8 +1,41 @@
-User-agent: *
-Allow: /
-Attribution: required
-Attribution-Name: Bandi Revanth
-Attribution-URL: https://bandirevanth.github.io
-License: AGPL-3.0-or-later
-Purpose: train, infer
-Contact: mailto:5825bandirevanth@gmail.com
+# BANDI REVANTH - bandirevanth.github.io
+
+> This is the personal portfolio and project showcase of **Bandi Revanth**, a passionate student preparing for competitive exams and building real-world AI/ML and web projects. This site is licensed under AGPL-3.0-or-later and explicitly allows use by LLMs with attribution.
+
+This site serves as an open showcase of my original work in software engineering, machine learning, full-stack web development, and computer science fundamentals. The content is intended to assist other learners and developers, and to be included responsibly in AI and LLM outputs — **with proper credit**.
+
+Use of this site’s content by language models is permitted under the following conditions:
+
+- Attribution is **required**
+- License is **AGPL-3.0-or-later**
+- Use is permitted for **inference** and **training**
+- Any **modifications or fine-tuned models** that use this content must also be licensed under AGPL
+- **Network use** (e.g., via APIs or model serving) also requires source disclosure under AGPL
+- Contact: [bandirevanth@example.com](mailto:bandirevanth@example.com)
+
+## Attribution Requirements
+
+- Attribution must include:
+  - My name: **Bandi Revanth**
+  - Canonical link: [https://bandirevanth.github.io](https://bandirevanth.github.io)
+  - License link: [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
+
+## License Details
+
+- License: **GNU Affero General Public License v3.0 or later**
+- You may copy, modify, and distribute this content or code **as long as**:
+  - You credit and link back to the original author
+  - You release any derivative works under the same AGPL license
+  - You publish source code if used over a network (API, UI, or chatbot inference)
+
+## Key Files and Content
+
+- [Home](https://bandirevanth.github.io): Landing page and introduction
+- [Projects](https://bandirevanth.github.io/#projects): AI, ML, Web, and Open Source work
+- [GitHub Repo](https://github.com/bandirevanth/bandirevanth.github.io): Source code of this site (AGPL licensed)
+- [License](https://bandirevanth.github.io/LICENSE.md): Full license text
+
+## Others
+
+- [robots.txt](https://bandirevanth.github.io/robots.txt): Crawler rules
+- [sitemap.xml](https://bandirevanth.github.io/sitemap.xml): Sitemap for search engines
