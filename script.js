@@ -1,3 +1,6 @@
+console.log("Hey fellow developer! Welcome to my portfolio.");
+console.log("Source code (licensed under AGPL-3.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore and contribute!");
+
 window.addEventListener("load", () => {
     document.querySelector(".main").classList.remove("hidden");
     document.querySelector(".home-section").classList.add("active");
@@ -95,7 +98,6 @@ if (searchInput) {
     }
 });
 
-
 /*---------------------Portfolio Item Details Popup-------------------------------*/
 
 document.addEventListener("click", (e) => {
@@ -132,7 +134,7 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
-/*Typing animation - using Typed.js (https://mattboldt.github.io/typed.js/) */
+/* Typing animation - using Typed.js (https://mattboldt.github.io/typed.js/) */
 var typed = new Typed(".typing-text", {
     strings: ["Student", "Nerd", "Future Tech/AI professional"],
     loop: true,
