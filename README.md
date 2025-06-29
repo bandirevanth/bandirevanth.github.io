@@ -1,12 +1,15 @@
 # Bandi Revanth 😎
 
+<img width=490px height=250px align=right src="https://github.com/bandirevanth/bandirevanth.github.io/blob/main/img/demo.png"></img>
+
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://bandirevanth.github.io/)
 
-<img align=right src="https://github.com/bandirevanth/bandirevanth.github.io/tree/main/img/demo.png"></img>
+_**My personal portfolio website** — a digital reflection of skills, projects, and aspirations._ [VISIT NOW!](https://bandirevanth.github.io/)
 
-_My personal portfolio website — a digital reflection of skills, projects, and aspirations._ [VISIT NOW!](https://bandirevanth.github.io/)
-
----
+<br>
+<br>
+<br>
+<br>
 
 ## Overview
 
@@ -39,12 +42,16 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 
 ---
 
-## Statistics - PageSpeed Insights & Lighthouse
+# Statistics
+### PageSpeed Insights & Lighthouse
 ##### _These numbers are for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))  
-🚀 Performance    - 82 - Mobile | 99 - Desktop  
+🚀 Performance    - 86 - Mobile | 99 - Desktop  
 ♿ Accessibility  - 100  
 🌟 Best Practices - 100  
 🌐 SEO            - 100
+
+### Google Search Console
+- Total site visitors - 23 (as of June 2025)
 
 ---
 
