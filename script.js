@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     }, 600)
 })
 
-/*----------------------------Toggle Navbar-------------------------*/
+/*------------------------Toggle Navbar--------------------------*/
 
 const navToggler = document.querySelector(".nav-toggler");
 const homeBtn = document.querySelector(".home-btn");
@@ -38,7 +38,7 @@ function toggleNavbar() {
     document.querySelector(".header").classList.toggle("active")
 }
 
-/*------------------Active Section------------------*/
+/*------------------ Active Section ------------------*/
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("link-item") && e.target.hash !== "") {
         //activate overlay to prevent multiple clicks
@@ -132,11 +132,7 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
-
-
-
-
-
+/*Typing animation - using Typed.js (https://mattboldt.github.io/typed.js/) */
 var typed = new Typed(".typing-text", {
     strings: ["Student", "Nerd", "Future Tech/AI professional"],
     loop: true,
