@@ -1,4 +1,4 @@
-console.log("Hey fellow developer! Welcome to my portfolio.");
+console.log("Hey fellow developer & visitor ! Welcome to my portfolio.");
 console.log("Source code (licensed under AGPL-3.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore and contribute!");
 
 window.addEventListener("load", () => {
