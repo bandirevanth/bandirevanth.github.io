@@ -55,6 +55,6 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 
 ---
 
-_Created on - May 19, 2025_
+<!-- Created on - May 19, 2025 -->
 
-Created and maintained by Bandi Revanth — Engineering the leap from insight to influence.
+Created and maintained by Bandi Revanth — Engineering the leap from insights to influence.
