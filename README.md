@@ -2,6 +2,8 @@
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://bandirevanth.github.io/)
 
+<img align=right src="https://github.com/bandirevanth/bandirevanth.github.io/tree/main/img/demo.png"></img>
+
 _My personal portfolio website — a digital reflection of skills, projects, and aspirations._ [VISIT NOW!](https://bandirevanth.github.io/)
 
 ---
