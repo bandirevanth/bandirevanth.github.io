@@ -1,0 +1,15 @@
+Thumbs.db
+
+.vscode/
+*.bak
+*.orig
+
+.env
+.env.*
+
+.cache/
+
+*.map
+
+*.zip
+*.tar.gz
