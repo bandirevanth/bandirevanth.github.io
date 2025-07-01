@@ -24,10 +24,7 @@
     margin:0;
     outline: none;
 }
-::before,
-::after{
-    box-sizing: border-box;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -131,9 +128,6 @@ section.fade-out{
 .hidden{
     display: none !important;
 }
-.flex-end{
-    justify-content: flex-end;
-}
 
 /*----------section title----------------*/
 
@@ -153,10 +147,7 @@ section.fade-out{
     text-transform: capitalize;
 }
 
-
-/*----------
-custom scroll bar
---------------*/
+/*-------Custom Scroll Bar-----------*/
 ::-webkit-scrollbar{
     width: 5px;
 }
@@ -211,7 +202,7 @@ button{
     color:var(--white);
 }
 
-/*Animation Keyframes*/
+/* ------- Animation Keyframes ---------- */
 @keyframes fadeIn{
     0%{
         opacity: 0;
@@ -253,7 +244,7 @@ button{
     }
 }
 
-/*Background Circles*/
+/* ---- Animated Background Circles ----- */
 
 .bg-circles{
     position: fixed;
@@ -343,7 +334,7 @@ button{
     }
 }
 
-/*Overlay*/
+/* Overlay */
 
 .overlay{
     position: fixed;
@@ -359,7 +350,7 @@ button{
     visibility: visible;
 }
 
-/*--------------Page Loader-----------------*/
+/* --------Page Loader----------*/
 
 .page-loader{
     position: fixed;
@@ -541,9 +532,7 @@ button{
     color: var(--main-color);
 }
 
-/*-----------
-Home Section
-----------------------*/
+/*----------- Home Section --------------*/
 .home-section{
     padding: 120px 0;
 }
@@ -887,17 +876,6 @@ Home Section
   outline: none;
 }
 
-@media (max-width: 991px) {
-  .blog-card {
-    width: calc(50% - 30px);
-  }
-}
-@media (max-width: 767px) {
-  .blog-card {
-    width: 100%;
-  }
-}
-
 /*--------------Contact Section------------------*/
 
 .contact-form,.contact-info{
@@ -1035,56 +1013,6 @@ Home Section
     }
 }
 
-
-.wrapper .static-txt{
-    color: var(--blue-dark);
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .wrapper .dynamic-txts{
-    margin-left: 60px;
-    height: 50px;
-    line-height: 90px;
-    overflow: hidden;
-  }
-  .dynamic-txts li{
-    list-style: none;
-    color: var(--main-color);
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    top: 0px;
-    animation: slide 12s steps(4) infinite;
-  }
-  @keyframes slide {
-    100%{
-      top: -360px;
-    }
-  }
-  .dynamic-txts li span{
-    position: relative;
-    margin: 5px 0;
-    line-height: 90px;
-  }
-  .dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid var(--main-color);
-    animation: typing 3s steps(10) infinite;
-  }
-  @keyframes typing {
-    40%, 60%{
-      left: calc(100% + 30px);
-    }
-    100%{
-      left: 0;
-    }
-  }
-
 .space-between{
     justify-content: space-between;
 }
@@ -1115,24 +1043,4 @@ Home Section
 .header .home-btn:hover{
     background-color: var(--main-color);
     color: var(--white);
-}
-
-/*----------custom scroll bar--------------*/
-::-webkit-scrollbar{
-    width: 8px;
-}
-::-webkit-scrollbar-track{
-    background-color: var(--white-alpha-25);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
-    border-radius: 10px;
-    border: 2px solid var(--white-alpha-25);
-    transition: background-color 0.3s ease;
-}
-
-::-webkit-scrollbar-thumb:hover{
-    background-color: var(--blue-green);
 }
