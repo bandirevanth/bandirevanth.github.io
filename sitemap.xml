@@ -5,11 +5,10 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-<url>
-  <loc>https://bandirevanth.github.io/</loc>
-  <lastmod>2025-07-01T06:40:00+05:30</lastmod>
-  <priority>1.00</priority>    
-</url>      
+      <url>
+        <loc>https://bandirevanth.github.io/</loc>
+        <lastmod>2025-07-01T06:40:00+05:30</lastmod>
+        <priority>1.00</priority>    
+      </url>      
 
 </urlset>
