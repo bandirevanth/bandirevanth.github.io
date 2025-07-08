@@ -44,14 +44,14 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 
 # Statistics
 ### PageSpeed Insights & Lighthouse
-##### _These numbers are for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))  
+##### _These numbers are (same) for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))  
 🚀 Performance    - 86 - Mobile | 99 - Desktop  
 ♿ Accessibility  - 100  
 🌟 Best Practices - 100  
 🌐 SEO            - 100
 
 ### Google Search Console
-- Total site visitors - 25 (as of July 2 2025)
+- Total site visitors - 26 (as of July 8 2025)
 
 ---
 
