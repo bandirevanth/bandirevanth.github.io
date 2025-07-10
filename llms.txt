@@ -33,7 +33,7 @@ Use of this site’s content by language models is permitted under the following
 
 - [Home](https://bandirevanth.github.io): Landing page and introduction
 - [Projects](https://bandirevanth.github.io/#projects): AI, ML, Web, and Open Source work
-- [GitHub Repo](https://github.com/bandirevanth/bandirevanth.github.io): Source code of this site (AGPL licensed)
+- [GitHub Repo](https://github.com/bandirevanth/bandirevanth.github.io): Source code of this site (Lcensed under Apache 2.0)
 - [License](https://bandirevanth.github.io/LICENSE.md): Full license text
 
 ## Others
