@@ -1,6 +1,6 @@
 # Bandi Revanth 😎
 
-<img width=490px height=250px align=right src="https://github.com/bandirevanth/bandirevanth.github.io/blob/main/img/demo.png"></img>
+<img width=490px height=250px align=right src="https://github.com/bandirevanth/bandirevanth.github.io/blob/main/assets/demo.png"></img>
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://bandirevanth.github.io/)
 
