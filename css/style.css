@@ -2,7 +2,7 @@
 
 /*---------Variables --------------*/
 :root{
-    --main-color: orangered;
+    --main-color: rgb(255, 81, 0);
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange: #ffa500;
@@ -1042,4 +1042,7 @@ button{
 .header .home-btn:hover{
     background-color: var(--main-color);
     color: var(--white);
+    transition: all 0.3s ease;
 }
+
+/* That was long! If you've scrolled this far... congratulations, you now qualify for a PhD in CSS Archaeology. */
