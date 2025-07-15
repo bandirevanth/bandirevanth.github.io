@@ -1,5 +1,5 @@
 console.log("Hey fellow developer & visitor! Welcome to my portfolio.");
-console.log("Source code (licensed under AGPL-3.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore and contribute!");
+console.log("Source code (licensed under Apache 2.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore! Don't forget to star my repo & give me a follow :)");
 
 window.addEventListener("load", () => {
     document.querySelector(".main").classList.remove("hidden");
