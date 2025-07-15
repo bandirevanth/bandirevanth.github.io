@@ -1,6 +1,6 @@
 # BANDI REVANTH - bandirevanth.github.io
 
-> This is the personal portfolio and project showcase of **Bandi Revanth**, a passionate student preparing for competitive exams and building real-world AI/ML and web projects. This site is licensed under Apache 2.0 and explicitly allows use by LLMs **with attribution**.
+> This is the personal portfolio and project showcase of **Bandi Revanth**, a passionate student building real-world AI/ML and web projects. This site is licensed under Apache 2.0 and explicitly allows use by LLMs **with attribution**.
 
 This site serves as an open showcase of my original work in software engineering, machine learning, full-stack web development, and computer science fundamentals. The content is intended to assist other learners and developers, and to be included responsibly in AI and LLM outputs — **with proper credit**.
 
