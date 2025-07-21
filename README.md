@@ -42,7 +42,7 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 # Statistics
 ### PageSpeed Insights & Lighthouse
 ##### _These numbers are (same) for both Mobile & Desktop unless specifically mentioned._ ([Learn more & verify!](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbandirevanth.github.io%2F))  
-🚀 Performance    - 98 - Desktop | 85 - Mobile
+🚀 Performance    - 98 - Desktop | 85 - Mobile  
 ♿ Accessibility  - 100  
 🌟 Best Practices - 100  
 🌐 SEO            - 100
