@@ -4,12 +4,13 @@ Thumbs.db
 *.bak
 *.orig
 
+*.log
+*.tmp
+
 .env
 .env.*
 
-.cache/
-
-*.map
-
 *.zip
 *.tar.gz
+
+.prettierrc
