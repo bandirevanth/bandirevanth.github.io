@@ -27,6 +27,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
@@ -565,12 +566,17 @@ button{
     border-radius: 50%;
     border: 8px solid var(--white-alpha-25);
     margin: auto;
+    overflow: hidden;
 }
 .home-img .img-box img{
     width: 100%;
     border-radius: 50%;
+    transition: transform 0.45s ease, box-shadow 0.4s ease;
 }
-
+.home-img .img-box img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 .home-text h2 span{
     font-size: 20px;
     font-weight: 300;
