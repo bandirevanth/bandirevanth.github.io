@@ -20,7 +20,7 @@ This website serves as my professional online presence. It was built with HTML, 
 - Sections for About Me, Projects, Skills, Blog and Contact
 - Smooth scrolling and interactive UI elements
 - Contact form protected and enhanced by [FormSubmit](https://formsubmit.co)
-- Secured under `LICENSE` & `NOTICE.md` | Ethically aligned via `llms.txt`
+- Secured under `LICENSE` & `NOTICE` | Ethically aligned via `llms.txt`
 
 ---
 
@@ -35,7 +35,7 @@ This website serves as my professional online presence. It was built with HTML, 
 ---
 
 ## **PLEASE READ!** 
-You are welcome to copy and use my code. It is open-source. However, if you decide to implement this (same) design, please give me credit by adding a button that links back to me and mention me in your README, etc. Please refer to `LICENSE` and `NOTICE.md` for more details. Hope you cooperate. Thanks!
+You are welcome to copy and use my code. It is open-source. However, if you decide to implement this (same/similar) design, please give me credit by adding a button that links back to me and mention me in your README, etc. Please refer to `LICENSE` and `NOTICE` for more details. Hope you cooperate. Thanks!
 
 ---
 
