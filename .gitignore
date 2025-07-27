@@ -1,14 +1,8 @@
 Thumbs.db
 
 .vscode/
-*.bak
-*.orig
-
-*.log
-*.tmp
 
 .env
-.env.*
 
 *.zip
 *.tar.gz
