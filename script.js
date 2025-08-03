@@ -1,135 +1,131 @@
 console.log("Hey fellow developer & visitor! Welcome to my portfolio.");
-console.log("Source code (licensed under Apache 2.0): https://github.com/bandirevanth/bandirevanth.github.io");
+console.log("Source code (licensed under Apache 2.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore! Don't forget to star my repo & give me a follow :)");
 
 window.addEventListener("load", () => {
-    const main = document.querySelector(".main");
-    const homeSection = document.querySelector(".home-section");
-    const loader = document.querySelector(".page-loader");
+    document.querySelector(".main").classList.remove("hidden");
+    document.querySelector(".home-section").classList.add("active");
+    /*---------Page Loader------------*/
+    setTimeout(() => {
+        document.querySelector(".page-loader").style.display = "none";;
+    }, 600)
+})
 
-    main.classList.remove("hidden");
-    homeSection.classList.add("active");
+/*------------------------Toggle Navbar--------------------------*/
 
-    setTimeout(() => loader.style.display = "none", 600);
-});
-
-// Elements cached once
 const navToggler = document.querySelector(".nav-toggler");
 const homeBtn = document.querySelector(".home-btn");
-const overlay = document.querySelector(".overlay");
-const header = document.querySelector(".header");
 
-// Navbar toggling
 navToggler.addEventListener("click", () => {
     hideSection();
     toggleNavbar();
     document.body.classList.toggle("hide-scrolling");
-});
+})
 
 homeBtn.addEventListener("click", () => {
+    // Go directly to home section
     document.querySelector("section.active").classList.remove("active", "fade-out");
     document.querySelector("#home").classList.add("active");
-
     requestAnimationFrame(() => window.scrollTo(0, 0));
-
-    if (header.classList.contains("active")) {
+    
+    // If navbar is open, close it
+    if(document.querySelector(".header").classList.contains("active")) {
         toggleNavbar();
         document.body.classList.remove("hide-scrolling");
     }
-});
+})
 
 function hideSection() {
     document.querySelector("section.active").classList.toggle("fade-out");
 }
 function toggleNavbar() {
-    header.classList.toggle("active");
+    document.querySelector(".header").classList.toggle("active")
 }
 
-// Navigation click handling
+/*------------------ Active Section ------------------*/
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("link-item") && e.target.hash !== "") {
-        overlay.classList.add("active");
+        //activate overlay to prevent multiple clicks
+        document.querySelector(".overlay").classList.add("active");
         navToggler.classList.add("hide");
         homeBtn.classList.add("hide");
-
         if (e.target.classList.contains("nav-item")) {
             toggleNavbar();
-        } else {
+        }
+        else {
             hideSection();
             document.body.classList.add("hide-scrolling");
         }
-
         setTimeout(() => {
             document.querySelector("section.active").classList.remove("active", "fade-out");
             document.querySelector(e.target.hash).classList.add("active");
-
-            requestAnimationFrame(() => window.scrollTo(0, 0));
-
+            window.scrollTo(0, 0);
             document.body.classList.remove("hide-scrolling");
             navToggler.classList.remove("hide");
             homeBtn.classList.remove("hide");
-            overlay.classList.remove("active");
-        }, 500);
+            document.querySelector(".overlay").classList.remove("active");
+        }, 500)
     }
-});
+})
 
-// About section tab switching
-const tabsContainer = document.querySelector(".about-tabs");
-const aboutSection = document.querySelector(".about-section");
+/*------------- About Tabs ---------------*/
+
+const tabsContainer = document.querySelector(".about-tabs"),
+    aboutSection = document.querySelector(".about-section");
 
 tabsContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains("tab-items") && !e.target.classList.contains("active")) {
         tabsContainer.querySelector(".active").classList.remove("active");
         e.target.classList.add("active");
-
         const target = e.target.getAttribute("data-target");
         aboutSection.querySelector(".tab-content.active").classList.remove("active");
         aboutSection.querySelector(target).classList.add("active");
     }
-});
+})
 
-// Blog search
-document.addEventListener("DOMContentLoaded", () => {
-    const searchInput = document.getElementById("blogSearch");
-    const blogPosts = document.querySelectorAll(".blog-post");
+/* Blog Search Functionality */
+document.addEventListener("DOMContentLoaded", function () {
+const searchInput = document.getElementById("blogSearch");
+const blogPosts = document.querySelectorAll(".blog-post");
 
-    if (searchInput) {
-        searchInput.addEventListener("input", function () {
-            const query = this.value.toLowerCase();
-            blogPosts.forEach(post => {
-                const text = post.innerText.toLowerCase();
-                post.style.display = text.includes(query) ? "block" : "none";
+if (searchInput) {
+    searchInput.addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+        blogPosts.forEach(post => {
+        const text = post.innerText.toLowerCase();
+        post.style.display = text.includes(query) ? "block" : "none";
             });
         });
     }
 });
 
-// Portfolio popup
+/*---------------------Portfolio Item Details Popup-------------------------------*/
+
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("view-project-btn")) {
         togglePortfolioPopup();
-        requestAnimationFrame(() => document.querySelector(".portfolio-popup").scrollTo(0, 0));
+        document.querySelector(".portfolio-popup").scrollTo(0, 0);
         portfolioItemDetails(e.target.closest(".portfolio-item"));
     }
-});
-
+})
 function togglePortfolioPopup() {
     document.querySelector(".portfolio-popup").classList.toggle("open");
     document.body.classList.toggle("hide-scrolling");
     document.querySelector(".main").classList.toggle("fade-out");
 }
-
 document.querySelector(".pp-close").addEventListener("click", togglePortfolioPopup);
+
+// hide popup when clicking outside of it
 
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("pp-inner")) {
-        togglePortfolioPopup();
+        togglePortfolioPopup()
     }
-});
+})
 
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && document.querySelector(".portfolio-popup.open")) {
         togglePortfolioPopup();
-    }
+  }
 });
 
 function portfolioItemDetails(portfolioItem) {
@@ -138,8 +134,8 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
-// Typed.js animation
-new Typed(".typing-text", {
+/* Typing animation - using Typed.js (https://mattboldt.github.io/typed.js/) */
+var typed = new Typed(".typing-text", {
     strings: ["Student", "Nerd", "Future Tech/AI professional"],
     loop: true,
     typeSpeed: 50,
