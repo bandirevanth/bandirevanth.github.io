@@ -25,7 +25,6 @@ This website serves as my professional online presence. It was built with HTML, 
 ## **PLEASE READ!** 
 You are welcome to copy and use my code. It is open-source. However, if you decide to implement this (same/similar/inspired) design, please give me credit by adding a button that links back to me and mention me in your README, etc. Please refer to `LICENSE` and `NOTICE` for more details. Hope you cooperate. Thanks!
 
----
 
 # Statistics
 ### PageSpeed Insights & Lighthouse
