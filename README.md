@@ -12,8 +12,6 @@ _**My personal portfolio website** — a digital reflection of skills, projects,
 
 This website serves as my professional online presence. It was built with HTML, CSS, JavaScript, & Typed.js and reflects a clean, accessible, and modern design philosophy.
 
----
-
 ## Features
 - Beautiful Glassmorphism design with animated background
 - Responsive design optimized for all devices
