@@ -1,0 +1,14 @@
+Thumbs.db
+
+.vscode/
+
+.env
+
+*.zip
+*.tar.gz
+
+.prettierrc
+
+node_modules/
+
+next/

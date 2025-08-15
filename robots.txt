@@ -1,0 +1,8 @@
+# If you're reading this, you're either a bot or a very bored developer.
+# Writing rules for bots. Because that *always* works.
+
+User-agent: *
+Allow: /
+Sitemap: https://bandirevanth.github.io/sitemap.xml
+
+# End of robots.txt. The rest is up to fate (and crawlers). Play cool, bots.

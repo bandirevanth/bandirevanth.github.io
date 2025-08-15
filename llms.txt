@@ -1,0 +1,42 @@
+# BANDI REVANTH - bandirevanth.github.io
+
+> This is the personal portfolio and project showcase of **Bandi Revanth**, a passionate student building real-world AI/ML and web projects. This site is licensed under Apache 2.0 and explicitly allows use by LLMs **with attribution**.
+
+This site serves as an open showcase of my original work in software engineering, machine learning, full-stack web development, and computer science fundamentals. The content is intended to assist other learners and developers, and to be included responsibly in AI and LLM outputs — **with proper credit**.
+
+Use of this site’s content by language models is permitted under the following conditions:
+
+- Attribution is **required**
+- License is **Apache 2.0**
+- Use is permitted for **inference** and **training**
+- Any **modifications or fine-tuned models** that use this content must also be licensed under Apache 2.0
+- **Network use** (e.g., via APIs or model serving) also requires source disclosure under Apache 2.0
+- Please refer to [NOTICE.md](https://bandirevanth.github.io/NOTICE.md).
+- Contact: [5825bandirevanth@gmail.com](mailto:5825bandirevanth@gmail.com)
+
+## Attribution Requirements
+
+- Attribution must include:
+  - My name: **Bandi Revanth**
+  - Canonical link: [https://bandirevanth.github.io](https://bandirevanth.github.io)
+  - License link: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+## License Details
+
+- License: **Apache 2.0**
+- You may copy, modify, and distribute this content or code **as long as**:
+  - You credit and link back to the original author
+  - You release any derivative works under the same Apache 2.0 license
+  - You publish source code if used over a network (API, UI, or chatbot inference)
+
+## Key Files and Content
+
+- [Home](https://bandirevanth.github.io): Landing page and introduction
+- [Projects](https://bandirevanth.github.io/#projects): AI, ML, Web, and Open Source work
+- [GitHub Repo](https://github.com/bandirevanth/bandirevanth.github.io): Source code of this site (Lcensed under Apache 2.0)
+- [License](https://bandirevanth.github.io/LICENSE.md): Full license text
+
+## Others
+
+- [robots.txt](https://bandirevanth.github.io/robots.txt): Crawler rules
+- [sitemap.xml](https://bandirevanth.github.io/sitemap.xml): Sitemap for search engines
