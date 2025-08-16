@@ -125,7 +125,7 @@ document.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && document.querySelector(".portfolio-popup.open")) {
         togglePortfolioPopup();
-  }
+    }
 });
 
 function portfolioItemDetails(portfolioItem) {
@@ -134,9 +134,9 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
-/* Typing animation - using Typed.js (https://mattboldt.github.io/typed.js/) */
+/* Typing animation - using Typed.js (Credit: https://mattboldt.github.io/typed.js/) */
 var typed = new Typed(".typing-text", {
-    strings: ["Student", "Nerd", "Future Tech/AI professional"],
+    strings: ["Student", "Nerd", "Future AI Full-stack engineer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 64,
