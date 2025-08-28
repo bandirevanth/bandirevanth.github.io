@@ -2,7 +2,13 @@
 # Writing rules for bots. Because that *always* works.
 
 User-agent: *
-Allow: /
+Disallow: /*?ref=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+Disallow: /*?yclid=
+Disallow: /*?mc_cid=
+Disallow: /*?mc_eid=
 Sitemap: https://bandirevanth.github.io/sitemap.xml
 
 # End of robots.txt. The rest is up to fate (and crawlers). Play cool, bots.

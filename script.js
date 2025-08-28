@@ -134,6 +134,22 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
 
+// Block bots
+const badParams = ["ref", "utm_source", "utm_medium", "utm_campaign", "fbclid", "gclid", "yclid", "mc_cid", "mc_eid"];
+  const url = new URL(window.location.href);
+  let changed = false;
+
+  badParams.forEach(p => {
+    if (url.searchParams.has(p)) {
+      url.searchParams.delete(p);
+      changed = true;
+    }
+  });
+
+  if (changed) {
+    window.location.href = url.origin + url.pathname + (url.searchParams.toString() ? "?" + url.searchParams.toString() : "");
+  }
+
 /* Typing animation - using Typed.js (Credit: https://mattboldt.github.io/typed.js/) */
 var typed = new Typed(".typing-text", {
     strings: ["Student", "Nerd", "Future AI Full-stack engineer"],
