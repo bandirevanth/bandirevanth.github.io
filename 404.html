@@ -7,9 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>404 Error</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='13'>❌</text></svg>" type="image/svg+xml">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='13'>❌</text></svg>"
+    type="image/svg+xml">
 
-  <meta name="description" content="Oops! The page you are looking for cannot be found. Explore other sections or go back home.">
+  <meta name="description"
+    content="Oops! The page you are looking for cannot be found. Explore other sections or go back home.">
   <meta name="robots" content="noindex, nofollow">
 
   <base href="https://bandirevanth.github.io/">
@@ -17,122 +20,131 @@
   <meta property="og:title" content="404 Page Not Found">
   <meta property="og:description" content="Looks like this page doesn't exist. Let's head back home.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://bandirevanth.github.io/assets/404.png"> <!-- optional image -->
-
-
+  <meta property="og:image" content="https://bandirevanth.github.io/assets/404.png">
 </head>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding-left: 175px;
-}
-
-.container>img {
-  padding-right: 175px;
-}
-
-.error {
-  width: 50%;
-  text-align: left;
-  margin-right: 2rem;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-  color: #2d2b2b;
-  margin-top: 2rem;
-}
-
-p {
-  font-size: 20px;
-  font-family: "eurostile", sans-serif;
-  margin-top: 1rem;
-  line-height: 1.5;
-}
-
-.cta {
-  font-weight: 500;
-  margin-top: 2rem;
-}
-
-.cta-back {
-  padding: 12px 20px;
-  font-size: 18px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-}
-
-.cta-back::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.cta-back:hover::before {
-  transform: translateX(100%);
-}
-
-.cta-back:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.cta-back:active {
-  transform: scale(0.9);
-  transition: transform 0.2s ease;
-}
-
-.hero-img {
-  height: 70vh;
-  animation: MoveUpDown 2s ease-in-out infinite alternate-reverse both;
-}
-
-@keyframes MoveUpDown {
-  0% {
-    transform: translateY(10px);
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
 
-  100% {
-    transform: translateY(-10px);
+  body {
+    background: #fafafa;
+    color: #2d2b2b;
   }
-}
 
-@media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
   }
 
   .error {
-    width: 80%;
-    margin-right: 0;
-    margin-bottom: 2rem;
-    text-align: justify;
+    flex: 1 1 350px;
+    max-width: 500px;
+    text-align: left;
   }
-}
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .cta {
+    margin-top: 2rem;
+  }
+
+  .cta-back {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-back::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .cta-back:hover::before {
+    transform: translateX(100%);
+  }
+
+  .cta-back:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .cta-back:active {
+    transform: scale(0.95);
+  }
+
+  .hero-img {
+    flex: 1 1 300px;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    animation: MoveUpDown 2s ease-in-out infinite alternate-reverse both;
+  }
+
+  @keyframes MoveUpDown {
+    0% {
+      transform: translateY(10px);
+    }
+
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .error {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    .hero-img {
+      max-width: 300px;
+    }
+  }
 </style>
 
 <body>
@@ -144,57 +156,36 @@ p {
         <button class="cta-back" onclick="window.history.back();">Escape the void</button>
       </div>
     </div>
-    <img src="assets/404.png" alt="home image" class="hero-img" />
+    <img src="assets/404.png" alt="404 illustration" class="hero-img" />
   </section>
 
-    <script>
-const sets = [
-  { title: "Lost in Space!", text: "Looks like this page has drifted off into the void.", cta: "Warp back to home" },
-  { title: "Game Over", text: "You’ve hit a wall! This level doesn’t exist.", cta: "Respawn at home" },
-  { title: "Oops!", text: "This page pulled a disappearing act.", cta: "Hit the rewind button" },
-  { title: "Vanished...", text: "Somewhere between here and there, this page is lost.", cta: "Follow the breadcrumbs home" },
-  { title: "Error 404", text: "The AI tried to find this page… but even machines fail sometimes.", cta: "Back to base station" },
-  { title: "Take a Detour!", text: "Even errors can be adventures. Let’s go back.", cta: "Return from the abyss" },
-  { title: "Page Not Found", text: "This page wandered off. Don’t worry, you can go home.", cta: "Home sweet home" },
-  { title: "Where Did It Go?", text: "It seems the page is hiding. Maybe try another path.", cta: "Return to safety" },
-  { title: "Mission Failed", text: "The requested page couldn’t be located. Retry at base?", cta: "Retry mission" },
-  { title: "404 – Lost Artifact", text: "This page is missing like a rare treasure. Let's return to safety.", cta: "Escape the cosmic void" },
-  { title: "Oopsie Daisy!", text: "You found a missing page! Time to head back.", cta: "Back to base, soldier!" },
-  { title: "404 Error", text: "Even the best servers get lost sometimes. Back to home?", cta: "Hit the rewind button" },
-  { title: "Page on Vacation", text: "This page took a break. Let’s navigate back.", cta: "Follow the breadcrumbs home" },
-  { title: "Lost in the Matrix", text: "The code couldn’t find the page. Follow the white rabbit home.", cta: "Return from the abyss" },
-  { title: "Wrong Turn!", text: "You veered off course. Let’s get you back on track.", cta: "Back to base station" },
-  { title: "Page in Another Dimension", text: "Somewhere in the multiverse this page exists… not here though.", cta: "Teleport back to safety" },
-  { title: "404 Adventure!", text: "Even lost pages can be fun. Time to explore back home.", cta: "Homeward bound" },
-  { title: "Ghost Page", text: "This page haunts the internet… but not this site. Let’s go back.", cta: "Back to the safe side" },
-  { title: "Digital Black Hole", text: "The page has been swallowed by cyberspace. Escape back home?", cta: "Beam me up" },
-  { title: "Oops, My Bad!", text: "Seems we misplaced this page. Head back before it’s too late.", cta: "Navigate to safety" },
-  { title: "Page Vanished", text: "It disappeared faster than pixels on a screen. Return to safety.", cta: "Return to the command deck" },
-  { title: "Oops… Wrong Dimension", text: "This page got sucked into a parallel universe. Let’s get you home.", cta: "Teleport Home" },
-  { title: "Page on Strike", text: "Even webpages need a break. Try again later or head back.", cta: "Return to HQ" },
-  { title: "404 Explorer", text: "You’ve discovered uncharted territory. Let’s navigate safely.", cta: "Chart a Course Home" },
-  { title: "Page Missing in Action", text: "This page vanished into thin air. Time to regroup.", cta: "Back to Base" },
-  { title: "Error Encountered", text: "The page you’re seeking is playing hide and seek. Don’t worry, you’re safe.", cta: "Seek Safe Path" },
-  { title: "Lost Pixel", text: "A tiny pixel went missing and took the page with it. Rescue mission?", cta: "Return to Screen" },
-  { title: "Server in Hiding", text: "Our server misplaced this page. Let’s retrace our steps.", cta: "Retrace Steps" },
-  { title: "404 Ninja", text: "This page was here a moment ago… now it’s gone! Sneaky, huh?", cta: "Back to Safety" },
-  { title: "Ghost Page", text: "It haunts the internet but not this site. Let’s leave the haunted zone.", cta: "Escape the Ghost" },
-  { title: "Oops, My Bad", text: "We misplaced this page. Grab your digital map and head back.", cta: "Navigate Back" },
-  { title: "Under Construction", text: "This page is still being built. Explore other areas in the meantime.", cta: "Go Home" },
-  { title: "404 Voyage", text: "You’ve set sail to unknown waters. Time to dock back home.", cta: "Return to Shore" },
-  { title: "Digital Bermuda Triangle", text: "This page disappeared without a trace. Let’s steer clear.", cta: "Back to Safe Zone" },
-  { title: "Mission Impossible", text: "The page you’re trying to reach is classified. Abort mission!", cta: "Abort & Return" },
-  { title: "Page on Vacation", text: "Somewhere sunny, sipping virtual cocktails. Let’s go back.", cta: "Home Sweet Home" }
-];
+  <script>
+    const sets = [
+      { title: "Lost in Space!", text: "Looks like this page has drifted off into the void.", cta: "Warp back to home" },
+      { title: "Game Over", text: "You’ve hit a wall! This level doesn’t exist.", cta: "Respawn at home" },
+      { title: "Oops!", text: "This page pulled a disappearing act.", cta: "Hit the rewind button" },
+      { title: "Vanished...", text: "Somewhere between here and there, this page is lost.", cta: "Follow the breadcrumbs home" },
+      { title: "Error 404", text: "The AI tried to find this page… but even machines fail sometimes.", cta: "Back to base station" },
+      { title: "Take a Detour!", text: "Even errors can be adventures. Let’s go back.", cta: "Return from the abyss" },
+      { title: "Page Not Found", text: "This page wandered off. Don’t worry, you can go home.", cta: "Home sweet home" },
+      { title: "Where Did It Go?", text: "It seems the page is hiding. Maybe try another path.", cta: "Return to safety" },
+      { title: "Mission Failed", text: "The requested page couldn’t be located. Retry at base?", cta: "Retry mission" },
+      { title: "404 – Lost Artifact", text: "This page is missing like a rare treasure. Let's return to safety.", cta: "Escape the cosmic void" },
+      { title: "Oopsie Daisy!", text: "You found a missing page! Time to head back.", cta: "Back to base, soldier!" },
+      { title: "Page on Vacation", text: "This page took a break. Let’s navigate back.", cta: "Follow the breadcrumbs home" },
+      { title: "Lost in the Matrix", text: "The code couldn’t find the page. Follow the white rabbit home.", cta: "Return from the abyss" },
+      { title: "Wrong Turn!", text: "You veered off course. Let’s get you back on track.", cta: "Back to base station" },
+      { title: "Page in Another Dimension", text: "Somewhere in the multiverse this page exists… not here though.", cta: "Teleport back to safety" },
+      { title: "404 Adventure!", text: "Even lost pages can be fun. Time to explore back home.", cta: "Homeward bound" },
+      { title: "Digital Black Hole", text: "The page has been swallowed by cyberspace. Escape back home?", cta: "Beam me up" },
+      { title: "Oops, My Bad!", text: "Seems we misplaced this page. Head back before it’s too late.", cta: "Navigate to safety" },
+      { title: "Page Vanished", text: "It disappeared faster than pixels on a screen. Return to safety.", cta: "Return to the command deck" },
+    ];
 
-// Pick one random set
-const random = sets[Math.floor(Math.random() * sets.length)];
-
-// Apply heading, text, and CTA together
-document.querySelector('.error h1').textContent = random.title;
-document.querySelector('.error p').textContent = random.text;
-document.querySelector('.cta-back').textContent = random.cta;
-</script>
+    const random = sets[Math.floor(Math.random() * sets.length)];
+    document.querySelector('.error h1').textContent = random.title;
+    document.querySelector('.error p').textContent = random.text;
+    document.querySelector('.cta-back').textContent = random.cta;
+  </script>
 </body>
-
 </html>
