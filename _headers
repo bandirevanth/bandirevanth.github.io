@@ -1,0 +1,19 @@
+/*
+  # Security Headers
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  
+  # Content Security Policy
+  Content-Security-Policy: default-src 'self'; 
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; 
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    img-src 'self' data: https://bandirevanth.github.io; 
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
+    connect-src 'self' https://formsubmit.co; 
+    frame-src 'none'; 
+    form-action https://formsubmit.co; 
+    base-uri 'self'; 
+    object-src 'none';
