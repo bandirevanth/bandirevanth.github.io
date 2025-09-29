@@ -35,11 +35,11 @@ You are welcome to copy and use my code. It is open-source. However, if you deci
 🌐 SEO            - 100
 
 ### Google Search Console
-- Total site visitors - 210 (as of Sep 25 2025)
+- Total site visitors - 220 (as of Sep 29 2025)
 - Average position (during searches) - 1st
 
 ---
 
-<!-- Created on - May 19, 2025 -->
+<!-- Created on / Since - May 19, 2025 -->
 
 Created and maintained by Bandi Revanth — Engineering the leap from ideas to influence.
