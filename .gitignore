@@ -1,5 +1,7 @@
 Thumbs.db
 
+.well-known/
+
 .vscode/
 
 .env
