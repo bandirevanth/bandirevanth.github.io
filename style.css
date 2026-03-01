@@ -600,7 +600,7 @@ button{
     max-width: 380px;
     border: 1px solid var(--white-alpha-40);
     margin: auto;
-    border-radius: 10px ;
+    border-radius: 50% ;
 }
 .about-img .img-box img{
     width: 100%;
