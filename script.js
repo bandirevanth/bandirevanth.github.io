@@ -13,7 +13,7 @@ async function loadGif() {
         console.log("%c ", `
             background-image: url('${base64data}');
             background-repeat: no-repeat;
-            padding: 320px 500px;
+            padding: 1600px 250px;
         `);
     };
 
