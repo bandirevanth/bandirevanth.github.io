@@ -1,20 +1,26 @@
 console.log("Hey fellow developer & visitor! Welcome to my portfolio.");
 console.log("Source code (licensed under GNU Affero General Public License v3.0) : https://github.com/bandirevanth/bandirevanth.github.io | Feel free to explore! Don't forget to star my repo & give me a follow :)");
 
-const response = await fetch("./assets/easter-egg.gif");
-const blob = await response.blob();
+async function loadGif() {
+    const response = await fetch("./assets/easter-egg.gif");
+    const blob = await response.blob();
 
-const reader = new FileReader();
-        reader.onloadend = () => {
-            const base64data = reader.result; // This is the full data:image/gif;base64,... string
+    const reader = new FileReader();
 
-            console.log("%c ", `
-                background-image: url('${base64data}'); 
-                background-repeat: no-repeat; 
-                padding: 320px 500px;
-            `);
-        };
-        reader.readAsDataURL(blob);
+    reader.onloadend = () => {
+        const base64data = reader.result;
+
+        console.log("%c ", `
+            background-image: url('${base64data}');
+            background-repeat: no-repeat;
+            padding: 320px 500px;
+        `);
+    };
+
+    reader.readAsDataURL(blob);
+}
+
+loadGif();
 
 window.addEventListener("load", () => {
     document.querySelector(".main").classList.remove("hidden");
